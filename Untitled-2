@@ -1,0 +1,25 @@
+Here are the candidate attribute for the most obvious table/entities
+
+Surveys >> SurveyID, SurveyType,SurveyName,DatePublished,Outcome,Status,
+
+Question >> QuestionID,QuestionType,QuestionName,NumberOfQuestions,QuestionChoices,ServeyID,
+
+Answers >>AnswersID,AnswerType,AnswerName,QuestionID,ServeyID,
+
+Here are the candidate table for the SurveySez application :
+
+Surveys
+Questions
+Answers
+Reports
+Clients
+QuestionTYpe
+DemographicIndicators
+Owners
+PurchaseHistory
+Users
+QuestionChoices
+SurveyCategory
+Sizes
+NumberOfQuestions
+SurveyCampain

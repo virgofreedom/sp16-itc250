@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 2%;
+    }
+img {
+    max-width: 80%;
+    position: relative;
+}
+
+#welcome {
+        width: 33.8%;
+  
+    left: 11%;
+    
+    position: absolute;
+    top:7.5%;
+    height: 10%;
+}
+
+table{
+    width: 34%;
+     left: 11%;   
+    position: absolute;
+    top:23%;
+    height: 30%;
+    }
+
+tr {
+	padding-top: 0.1px;
+	padding-left:5%;
+	padding-right:40px;
+	height:15px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	align-content:center;
+	color:red;
+	margin-bottom:2px;
+	}
+	
+	td {
+    padding-top: 0.1px;
+	padding-right:10px;	
+	padding-left:10px;	
+		}
+input {
+    height: 25px;
+    width: 65%;    
+ padding-top:0;
+ padding-left:10px;     
+}
+
+	input[type=submit] 
+	{
+		color:white;
+		background-color:green;
+        width: 100%;
+		 font-weight: bold; 
+        height: 25px;
+	}
+	input[type=checkbox] 
+	{
+		color:white;
+		height: 15px;
+		}
+
+h1 {
+    font-family: sans-serif;
+    color: green;
+    font-size: 2.5em;
+    align-content: center;
+    line-height: 0.5em;
+   text-align: center;
+  font-weight: bold; 
+
+}
+h3{
+    font-family: Monospace;
+    color: coral;
+    font-size: 26px;
+    
+    padding-left: 5px;
+}
+
+h2, h4 {
+     font-family: sans-serif;
+    color: blue;
+   
+   padding-left: 5px;
+    text-align: center;
+    font-size: 120%;
+  
+}

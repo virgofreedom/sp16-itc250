@@ -1,0 +1,15 @@
+ChangeLog for nmCategories Package: 2010-03-10  Bill Newman  <williamnewman@gmail.com>
+
+This is an informal changelog, a summary of changes in each version and between.
+Changes are categorized as Change, Fix, Sec (Security Issue) or Feature.
+
+Version 2.12 (2012-3-14)
+[Change] Changed all file names to match demo folder: demo_book_categories.php, etc.
+
+Version 2.1 (2010-3-10)
+[Fix] Better use of meta tags added
+
+Version 2.0(2009-05-18)
+[Feature] Added meta tags
+
+To Do: Word doc needs re-write to incorporate demo_ prefix
