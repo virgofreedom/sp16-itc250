@@ -19,7 +19,7 @@
  * @todo none
  */
 
-require '../inc_0700/config_inc.php'; #provides configuration, pathing, error handling, db credentials 
+require 'inc_0700/config_inc.php'; #provides configuration, pathing, error handling, db credentials 
 
 if(isset($_GET['cid'])){$CategoryID = $_GET['cid'];}else{$CategoryID =0;}
 if(isset($_GET['cat'])){$Category = urldecode($_GET['cat']);}else{$Category="";}
@@ -29,7 +29,7 @@ if(isset($_GET['id'])){
 	$myID = intval($_GET['id']); #Convert to integer, will equate to zero if fails
 	if($myID < 1){myRedirect(VIRTUAL_PATH . 'demo/demo_book_list.php?cid=' . $CategoryID . '&cat=' . urlencode($Category));}
 }else{
-	myRedirect(VIRTUAL_PATH . 'demo/demo_book_list.php?cid=' . $CategoryID . '&cat=' . urlencode($Category)); # Nothing on querystring, redirect
+	myRedirect(VIRTUAL_PATH . 'book_list.php?cid=' . $CategoryID . '&cat=' . urlencode($Category)); # Nothing on querystring, redirect
 }
 
 $sql = "select BookTitle, Description, Price from Books where BookID = " . $myID;
@@ -93,3 +93,4 @@ web application with record paging.</p>
 @mysqli_free_result($result); # clears resources
 
 get_footer(); #defaults to footer_inc.php
+?>
